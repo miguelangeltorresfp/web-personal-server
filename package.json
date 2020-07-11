@@ -1,0 +1,23 @@
+{
+  "name": "miguelangeltorresfp-backend",
+  "version": "0.0.1",
+  "description": "Backend para la web www.miguelangeltorresfp.com",
+  "main": "index.js",
+  "author": "Miguel Angel Torres FP",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt-nodejs": "^0.0.3",
+    "body-parser": "^1.19.0",
+    "connect-multiparty": "^2.2.0",
+    "express": "^4.17.1",
+    "jwt-simple": "^0.5.6",
+    "moment": "^2.27.0",
+    "mongoose": "^5.9.23"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "scripts": {
+    "start": "nodemon index.js"
+  }
+}
